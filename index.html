@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <p>Designed by Manish</p>
+    </header>
+    <div class="main-container">
+        <div class="gameboard"></div>
+        
+        <section class="popup">
+            <p class="winner">The Winner is:</p>
+        </section>
+        <section class="controls">
+            <p>Welcome to Tic Tac Toe</p>
+            <div>
+                <p class="player">Player 1</p>
+                <input type="text" id="player1" placeholder="player1 name"> 
+            </div>
+            <div>
+                <p class="player">Player 2</p>
+                <input type="text" id="player2" placeholder="player2 name">
+            </div>
+            <button class="start-btn">Start Game</button>
+        </section>
+        <div class="sub-container">
+            <button class="restart">Restart</button>
+            <div id="message"></div>
+            <div id="result-display"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

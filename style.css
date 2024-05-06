@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ede9fe ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ede9fe;
+    height: 100vh;
+    position: relative;
+}
+
+.gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 350px;
+}
+
+.square {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #c7d2fe;
+}
+
+.popup {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.controls {
+    visibility: hidden;
+    background-color: #fdf4ff;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 2;
+    border-radius: 10px;
+    border: 1px solid #ede9fe;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.player-text {
+    font-size: 36px;
+}
+
+
+/* 
+.box-container {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 5px;
+    z-index: 1;
+}
+
+.box {
+    background-color: #d8b4fe;
+    padding: 50px;
+} */
